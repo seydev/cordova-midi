@@ -1,0 +1,24 @@
+body {
+    padding: 50px 10px;
+    color: #333;
+}
+
+table.notes {
+    border-collapse: separate;
+    border-spacing: 3px;
+    margin: 0 auto;
+}
+
+table.notes td {
+    background: #eee;
+    height: 40px;
+    width: 40px;
+}
+
+table.notes td:hover {
+    background: #ddd;
+}
+
+table.notes td.active {
+    background: #333;
+}
